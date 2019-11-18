@@ -61,6 +61,8 @@ h1  {
 
 #hero-image {
     height:600px;
-    width:100%
-    background: url("https://images.pexels.com/photos/2261477/pexels-photo-2261477.jpeg?cs=srgb&dl=active-athlete-barbell-2261477.jpg&fm=jpg")  no-repeat center;
+    width:100%;
+    background: url("https://images.pexels.com/photos/2261477/pexels-photo-2261477.jpeg?cs=srgb&dl=active-athlete-barbell-2261477.jpg&fm=jpg")  no-repeat center center;
+    object-fit: contain;
+
 }
