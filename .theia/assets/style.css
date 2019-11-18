@@ -14,9 +14,53 @@ h1  {
 
 #logo { 
 
-    float: left;
+    float: center;
     font: 200%;
 }
 
+#logo , #menu1, #menu2 {
+        line-height:75px;
+}
 
+#menu1 {
+    font-size: 80%;
+    list-style-type: none;
+    letter-spacing: 4px;
+    font-family: Lato;
+}
 
+#menu1 li {
+        float: left;
+        margin-right: 75px;
+        }
+
+#menu2 {
+    font-size: 80%;
+    list-style-type: none;
+    letter-spacing: 4px;
+    font-family: Lato;
+}
+
+#menu2 li {
+        float: right;
+        margin-left: 75px;
+        }
+
+#menu1, #menu2 {
+        text-decoration: none;
+        color: inherit;
+}
+
+#menu1 a:hover , #menu2 a:hover {
+   border-bottom: 1px solid #777777;
+}
+
+.active {
+    border-bottom: 1px solid #777777;
+}
+
+#hero-image {
+    height:600px;
+    width:100%
+    background: url("https://images.pexels.com/photos/2261477/pexels-photo-2261477.jpeg?cs=srgb&dl=active-athlete-barbell-2261477.jpg&fm=jpg")  no-repeat center;
+}
