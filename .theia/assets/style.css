@@ -107,5 +107,26 @@ h1  {
     right:120px;
 
     position:absolute;
-    
+}
+
+#club-ethos {
+         height:600px;
+}
+
+#left-about {
+    padding-top:30px;
+    width:33%;
+    float: left;
+}
+
+#right-about {
+    padding-top:30px;
+    width:33%;
+    float: left;
+}
+
+#center-about {
+    padding-top:30px;
+    width:33%;
+    float: left;
 }
