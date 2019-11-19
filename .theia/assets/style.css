@@ -10,20 +10,24 @@ h1  {
         text-transform: uppercase;
         letter-spacing: 4px;
         color: #555555;
+        font:200%;
     }
 
 #logo { 
 
-    float: center;
+    float:center;
     font: 200%;
+    padding-left:120px;
+    translate: 0px 75px;
+
 }
 
 #logo , #menu1, #menu2 {
         line-height:75px;
 }
 
-#menu1 {
-    font-size: 80%;
+#menu1 , #menu2 {
+    font-size: 150%;
     list-style-type: none;
     letter-spacing: 4px;
     font-family: Lato;
@@ -34,12 +38,6 @@ h1  {
         margin-right: 75px;
         }
 
-#menu2 {
-    font-size: 80%;
-    list-style-type: none;
-    letter-spacing: 4px;
-    font-family: Lato;
-}
 
 #menu2 li {
         float: right;
@@ -64,10 +62,50 @@ h1  {
     width:100%;
     background: url("https://images.pexels.com/photos/2261477/pexels-photo-2261477.jpeg?cs=srgb&dl=active-athlete-barbell-2261477.jpg&fm=jpg")  no-repeat center center;
     object-fit:  scale-down;
+    background-size: cover;
+    animation-name: hero-zoom;
+    animation-duration:3s;
+    animation-fill-mode:forwards;
 }
 
 #hero-outer {
  height:600px;
  width: 100%;
  overflow:hidden;
+ position:relative;
+}
+
+@keyframes hero-zoom {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(1.1);
+    }
+}
+
+
+#cover-text, #cover-text h2 {
+    color: black;
+    font-size: 10px;
+    text-transform: uppercase;
+    text-shadow: Oswald 0px 0px 1px,   Oswald 0px 0px 1px,   Oswald 0px 0px 1px,
+             Oswald 0px 0px 1px,   Oswald 0px 0px 1px,   Oswald 0px 0px 1px;
+}
+
+#cover-text {
+    font-size: 20px;
+    font-family: Oswald;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    width:300px;
+    height:200px;
+    padding-left: 20px;
+    padding-top: 0px;
+    background-color:#DCDCDC;
+    bottom:100px;
+    right:120px;
+
+    position:absolute;
+    
 }
