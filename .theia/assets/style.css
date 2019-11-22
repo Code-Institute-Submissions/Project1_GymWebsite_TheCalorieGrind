@@ -117,16 +117,40 @@ h1  {
     padding-top:30px;
     width:33%;
     float: left;
+    color:blue;
+    text-align: center;
+    background-color: green;
 }
 
 #right-about {
     padding-top:30px;
     width:33%;
     float: left;
+    color:red;
+    text-align: center;
+    background-color: blue;
 }
 
 #center-about {
     padding-top:30px;
     width:33%;
     float: left;
+    color:green;
+    text-align: center;
+    background-color:tomato
 }
+
+#mission {
+    text-align: center;
+    margin:20px 0;
+    text-size-adjust: 200%;
+}
+
+#hl {
+    border: 1px solid silver;
+    width: 100%;
+    margin: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    background-color: silver;
+    }
