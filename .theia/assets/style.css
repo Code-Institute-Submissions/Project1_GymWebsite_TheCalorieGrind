@@ -15,7 +15,6 @@ h1  {
 
 #logo { 
 
-    float:center;
     font: 200%;
     padding-left:120px;
     translate: 0px 75px;
@@ -110,35 +109,39 @@ h1  {
 }
 
 #club-ethos {
-         height:600px;
+         height:300px;
 }
 
 #left-about {
-    padding-top:30px;
+    padding-top:15px;
     width:33%;
     float: left;
     color:blue;
     text-align: center;
-    background-color: green;
 }
 
 #right-about {
-    padding-top:30px;
+    padding-top:15px;
     width:33%;
     float: left;
     color:red;
     text-align: center;
-    background-color: blue;
 }
 
 #center-about {
-    padding-top:30px;
+    padding-top:15px;
     width:33%;
     float: left;
     color:green;
     text-align: center;
-    background-color:tomato
+
 }
+
+hr {
+    border-bottom: 1px solid #777777;
+    width:80%;
+    margin: 5px .5;
+    }
 
 #mission {
     text-align: center;
@@ -154,3 +157,4 @@ h1  {
     margin-bottom: 5%;
     background-color: silver;
     }
+
