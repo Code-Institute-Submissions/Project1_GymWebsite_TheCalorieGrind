@@ -158,3 +158,10 @@ hr {
     background-color: silver;
     }
 
+footer {
+height:225px;
+}
+
+.social-media {
+    display:inline;
+}
