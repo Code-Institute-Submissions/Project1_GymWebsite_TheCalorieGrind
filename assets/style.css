@@ -3,7 +3,8 @@
 body { 
  font-family:Lato;
  color:#777777;
-}
+ background-color:lightcyan;
+ }
 
 h1  {
         font-family: Oswald;
@@ -61,6 +62,7 @@ h1  {
     width:100%;
     background: url("https://images.pexels.com/photos/2261477/pexels-photo-2261477.jpeg?cs=srgb&dl=active-athlete-barbell-2261477.jpg&fm=jpg")  no-repeat center center;
     object-fit:  scale-down;
+    object-position: top;
     background-size: cover;
     animation-name: hero-zoom;
     animation-duration:3s;
@@ -163,5 +165,52 @@ height:225px;
 }
 
 .social-media {
-    display:inline;
+    text-align:center;
+}
+
+.social-media li {
+    display: inline;
+}
+
+.social-media i {
+    font-size: 200%;
+    margin: 2%;
+    padding:5%;
+    color:#777777
+}
+#gmap iframe {
+    height:225px;
+    width:100%;
+}
+
+#photo {
+    object-fit: fill;
+    object-position: center;
+    text-align:center;
+    width:100%
+}
+#left-about-contact {
+    
+    width:10%;
+    float: left;
+    color:blue;
+    text-align: center;
+}
+
+#right-about-contact  img{
+    
+    width:10%;
+    float: left;
+    color:red;
+    text-align: center;
+    object-fit:contain
+}
+
+#center-about-contact {
+    
+    width:80%;
+    float: left;
+    color:green;
+    text-align: center;
+
 }
