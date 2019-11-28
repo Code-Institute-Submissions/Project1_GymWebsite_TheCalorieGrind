@@ -1,16 +1,20 @@
 @import url('https://fonts.googleapis.com/css?family=Lato|Oswald&display=swap');
 
+header { 
+ background-color:black;
+ }
+
+
 body { 
  font-family:Lato;
- color:#777777;
- background-color:lightcyan;
+ background-color:black;
  }
 
 h1  {
         font-family: Oswald;
         text-transform: uppercase;
         letter-spacing: 4px;
-        color: #555555;
+        color: white;
         font:200%;
     }
 
@@ -24,6 +28,7 @@ h1  {
 
 #logo , #menu1, #menu2 {
         line-height:75px;
+        color:white;
 }
 
 #menu1 , #menu2 {
@@ -36,6 +41,7 @@ h1  {
 #menu1 li {
         float: left;
         margin-right: 75px;
+        color:white;
         }
 
 
@@ -46,7 +52,7 @@ h1  {
 
 #menu1, #menu2 {
         text-decoration: none;
-        color: inherit;
+        
 }
 
 #menu1 a:hover , #menu2 a:hover {
@@ -55,6 +61,11 @@ h1  {
 
 .active {
     border-bottom: 1px solid #777777;
+}
+
+.theme {
+    background-color:black;
+    color:white;
 }
 
 #hero-image {
@@ -87,7 +98,7 @@ h1  {
 
 
 #cover-text, #cover-text h2 {
-    color: black;
+    color: white;
     font-size: 10px;
     text-transform: uppercase;
     text-shadow: Oswald 0px 0px 1px,   Oswald 0px 0px 1px,   Oswald 0px 0px 1px,
@@ -103,10 +114,9 @@ h1  {
     height:200px;
     padding-left: 20px;
     padding-top: 0px;
-    background-color:#DCDCDC;
     bottom:100px;
     right:120px;
-
+    color:white;
     position:absolute;
 }
 
@@ -183,34 +193,31 @@ height:225px;
     width:100%;
 }
 
-#photo {
-    object-fit: fill;
-    object-position: center;
-    text-align:center;
-    width:100%
-}
-#left-about-contact {
-    
-    width:10%;
-    float: left;
-    color:blue;
-    text-align: center;
+.photo {
+    clear:both;
+    line-height: 0;
 }
 
-#right-about-contact  img{
-    
-    width:10%;
-    float: left;
-    color:red;
-    text-align: center;
-    object-fit:contain
+
+.left-about-contact {
+    height:600px;
+    background-color:blue;
+    background: url("https://images.pexels.com/photos/1552104/pexels-photo-1552104.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500") center no-repeat no-repeat;
+    background-size: cover; 
 }
 
-#center-about-contact {
+.right-about-contact {
+    height:600px;
+    background-color:blue;
+    background: url("https://images.pexels.com/photos/1886487/pexels-photo-1886487.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500") center no-repeat no-repeat;
+    background-size: cover;         
+}
+
+.center-about-contact {
     
-    width:80%;
-    float: left;
-    color:green;
-    text-align: center;
+    height:600px;
+    background-color:blue;
+    background: url("https://images.pexels.com/photos/669584/pexels-photo-669584.jpeg?auto=compress&cs=tinysrgb&h=650&w=940") center no-repeat no-repeat;
+    background-size: cover; 
 
 }
