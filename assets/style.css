@@ -1,13 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Lato|Oswald&display=swap');
 
-header { 
- background-color:black;
- }
-
 
 body { 
  font-family:Lato;
  background-color:black;
+ color: white;
  }
 
 h1  {
@@ -38,16 +35,17 @@ h1  {
     font-family: Lato;
 }
 
-#menu1 li {
+#menu1 li a {
         float: left;
         margin-right: 75px;
         color:white;
         }
 
 
-#menu2 li {
+#menu2 li a {
         float: right;
         margin-left: 75px;
+        color:white;
         }
 
 #menu1, #menu2 {
@@ -128,7 +126,7 @@ h1  {
     padding-top:15px;
     width:33%;
     float: left;
-    color:blue;
+    color:white;
     text-align: center;
 }
 
@@ -136,7 +134,7 @@ h1  {
     padding-top:15px;
     width:33%;
     float: left;
-    color:red;
+    color:white;
     text-align: center;
 }
 
@@ -144,7 +142,7 @@ h1  {
     padding-top:15px;
     width:33%;
     float: left;
-    color:green;
+    color:white;
     text-align: center;
 
 }
@@ -172,22 +170,33 @@ hr {
 
 footer {
 height:225px;
+background: url("https://images.pexels.com/photos/3153201/pexels-photo-3153201.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260") center no-repeat no-repeat;
+background-size: cover;         
 }
 
 .social-media {
-    text-align:center;
+    color: silver;
 }
 
-.social-media li {
-    display: inline;
+.social-media p {
+    color: black;
+    clear:both;
+    float: right;
+    margin:1%;
+    background-color: white;
 }
 
-.social-media i {
-    font-size: 200%;
-    margin: 2%;
-    padding:5%;
-    color:#777777
+.social-media li a {
+    font-size: 100%;
+    margin: 1%;
+    padding-right: 12%;
+    float: right;
+    color:black;
+    display:block;
+    clear:both;
 }
+
+
 #gmap iframe {
     height:225px;
     width:100%;
@@ -219,5 +228,20 @@ height:225px;
     background-color:blue;
     background: url("https://images.pexels.com/photos/669584/pexels-photo-669584.jpeg?auto=compress&cs=tinysrgb&h=650&w=940") center no-repeat no-repeat;
     background-size: cover; 
+    
+}
 
+.test {
+    height: 300px;
+    clear:both;
+    display: inline-block;
+}
+
+.test li {
+    list-style-type: none;
+    text-align:center;
+}
+
+.test li a {
+    color:white;
 }
