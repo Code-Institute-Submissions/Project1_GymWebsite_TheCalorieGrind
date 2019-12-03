@@ -1,11 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Lato|Oswald&display=swap');
 
-
-body { 
- font-family:Lato;
- background-color:black;
- color: white;
- }
+/* common title for all pages */
 
 h1  {
         font-family: Oswald;
@@ -20,7 +15,7 @@ h1  {
     font: 200%;
     padding-left:120px;
     translate: 0px 75px;
-
+   
 }
 
 #logo , #menu1, #menu2 {
@@ -66,6 +61,7 @@ h1  {
     color:white;
 }
 
+/* image used on index page main section */
 #hero-image {
     height:600px;
     width:100%;
@@ -94,7 +90,7 @@ h1  {
     }
 }
 
-
+/* text styling for founder quote */
 #cover-text, #cover-text h2 {
     color: white;
     font-size: 10px;
@@ -118,10 +114,14 @@ h1  {
     position:absolute;
 }
 
+
+/* club ethos */ 
 #club-ethos {
          height:300px;
 }
 
+
+/* used for Mission statement text */
 #left-about {
     padding-top:15px;
     width:33%;
@@ -168,38 +168,47 @@ hr {
     background-color: silver;
     }
 
+
+/* bottom footer common to all pages */
 footer {
-height:225px;
-background: url("https://images.pexels.com/photos/3153201/pexels-photo-3153201.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260") center no-repeat no-repeat;
-background-size: cover;         
+height:300px;
+background: url("https://images.pexels.com/photos/3153201/pexels-photo-3153201.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260") no-repeat center center;
+background-size: cover;  
+margin:0;   
 }
 
-.social-media {
-    color: silver;
+.social-media li {
+    list-style-type: none;
+    text-align: center;
 }
 
 .social-media p {
     color: black;
     clear:both;
     float: right;
+    text-align: center;
     margin:1%;
+    
     background-color: white;
 }
 
 .social-media li a {
     font-size: 100%;
     margin: 1%;
-    padding-right: 12%;
+    text-align: center;
     float: right;
     color:black;
-    display:block;
+    background-color:white;
     clear:both;
+    list-style-type: none;
 }
 
-
+/* google maps iframe input on contact page */
 #gmap iframe {
     height:225px;
     width:100%;
+    margin: 0;
+    clear:both;
 }
 
 .photo {
@@ -207,7 +216,7 @@ background-size: cover;
     line-height: 0;
 }
 
-
+/* main section of contact us page w/ three photo layout */
 .left-about-contact {
     height:600px;
     background-color:blue;
@@ -231,17 +240,20 @@ background-size: cover;
     
 }
 
+/* testing at bottom of contact page to debug formatting */
 .test {
     height: 300px;
     clear:both;
-    display: inline-block;
+    
 }
 
 .test li {
     list-style-type: none;
     text-align:center;
+
+    display: inline-block;
 }
 
 .test li a {
-    color:white;
+    color:black;
 }
