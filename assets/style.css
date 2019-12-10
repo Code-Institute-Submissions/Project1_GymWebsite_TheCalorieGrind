@@ -183,6 +183,9 @@ margin:0;
     list-style-type: none;
     text-align: center;
     clear:both;
+    background-color: white;
+    fill-opacity: 50%;
+    color:black;
     
 }
 
@@ -200,7 +203,7 @@ margin:0;
     font-size: 100%;
     margin: 1%;
     text-align: center;
-    float: right;
+    float: center;
     color:black;
     background-color:white;
     clear:both;
@@ -287,7 +290,7 @@ margin:0;
 }
 
 .tt-oh-s1 {
-    padding-top: 5%;
+    padding-top: 3%;
     border-bottom-style: solid;
     border-bottom-color: white;
 }
@@ -297,11 +300,13 @@ margin:0;
     float: left;
 }
 
-.tt-text h4 {
+.tt-text p {
     text-align:center;
-    font-size: 80%;
-    padding-right: 10px;
-    
+    padding:20px;
+}
 
-
+.tt-text h4{
+    text-align:center;
+    font-size: 90%;
+    margin: 10px;
 }
