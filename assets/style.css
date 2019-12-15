@@ -2,6 +2,11 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
 
 /* common title for all pages */
+header {
+min-height:75px;
+line-height: 75px;
+}
+
 
 h1  {
         font-family: Oswald;
@@ -9,47 +14,35 @@ h1  {
         letter-spacing: 4px;
         color: white;
         font:200%;
+        text-align:center;
     }
 
-#logo { 
+.logo a h1 { 
 
     font: 200%;
-    padding-left:120px;
-    translate: 0px 75px;
-   
+    text-align: center;
+    line-height: 75px;
+    color:white;
+    clear:both;
 }
 
-#logo , #menu1, #menu2 {
-        line-height:75px;
-        color:white;
-}
-
-#menu1 , #menu2 {
+.menu1 {
     font-size: 150%;
     list-style-type: none;
     letter-spacing: 4px;
     font-family: Lato;
+    text-align: center;
 }
 
-#menu1 li a {
-        float: left;
-        margin-right: 75px;
-        color:white;
-        }
-
-
-#menu2 li a {
-        float: right;
-        margin-left: 75px;
-        color:white;
-        }
-
-#menu1, #menu2 {
-        text-decoration: none;
+.menu1 a {
         
-}
+        color:white;
+        text-decoration: none; 
+        }
 
-#menu1 a:hover , #menu2 a:hover {
+
+
+.menu1 a:hover {
    border-bottom: 1px solid #777777;
 }
 
@@ -173,8 +166,9 @@ hr {
 
 /* bottom footer common to all pages */
 footer {
-height:300px;
-background: url("https://images.pexels.com/photos/3153201/pexels-photo-3153201.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260") no-repeat center center;
+min-height:150px;
+/*background: url("https://images.pexels.com/photos/3153201/pexels-photo-3153201.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260") no-repeat center center; */
+background-color:#757575;
 background-size: cover;  
 margin:0;   
 }
@@ -183,10 +177,7 @@ margin:0;
     list-style-type: none;
     text-align: center;
     clear:both;
-    background-color: white;
-    fill-opacity: 50%;
     color:black;
-    
 }
 
 .social-media p {
@@ -195,8 +186,6 @@ margin:0;
     float: right;
     text-align: center;
     margin:1%;
-    
-    background-color: white;
 }
 
 .social-media li a {
@@ -204,23 +193,23 @@ margin:0;
     margin: 1%;
     text-align: center;
     float: center;
-    color:black;
-    background-color:white;
+    color: black;
+    
     clear:both;
     list-style-type: none;
 }
 
 /* google maps iframe input on contact page */
 #gmap iframe {
-    height:225px;
+    min-height 150px;
     width:100%;
-    margin: 0;
+   
     clear:both;
 }
 
 .photo {
     clear:both;
-    line-height: 0;
+   
 }
 
 /* main section of contact us page w/ three photo layout */
