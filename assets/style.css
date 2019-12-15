@@ -138,7 +138,6 @@ h1  {
     float: left;
     color:white;
     text-align: center;
-
 }
 
 hr {
@@ -173,6 +172,10 @@ background-size: cover;
 margin:0;   
 }
 
+.social-media {
+    text-align:center;
+}
+
 .social-media li {
     list-style-type: none;
     text-align: center;
@@ -194,7 +197,6 @@ margin:0;
     text-align: center;
     float: center;
     color: black;
-    
     clear:both;
     list-style-type: none;
 }
@@ -203,9 +205,10 @@ margin:0;
 #gmap iframe {
     min-height 150px;
     width:100%;
-   
     clear:both;
 }
+
+
 
 .photo {
     clear:both;
@@ -227,9 +230,9 @@ margin:0;
     background-size: cover;         
 }
 
-.center-about-contact {
+.contact-center-image {
     
-    height:600px;
+    min-height:600px;
     background-color:blue;
     background: url("https://images.pexels.com/photos/669584/pexels-photo-669584.jpeg?auto=compress&cs=tinysrgb&h=650&w=940") center no-repeat no-repeat;
     background-size: cover; 
@@ -298,4 +301,22 @@ margin:0;
     text-align:center;
     font-size: 90%;
     margin: 10px;
+}
+
+/* Contact-Us Styles */
+.center-form {
+    padding-top: 40%;
+    margin: 0 auto;
+    min-width: 100%;
+    
+}
+
+.contact-center-text {
+    text-align: center;
+    float:center;
+}
+
+.contact-center-text h2, .contact-center-text h4 { 
+    text-align:center;
+    float: center;
 }
