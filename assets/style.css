@@ -4,7 +4,7 @@
 /* common title for all pages */
 header {
 min-height:75px;
-line-height: 75px;
+text-align: center;
 }
 
 
@@ -13,31 +13,39 @@ h1  {
         text-transform: uppercase;
         letter-spacing: 4px;
         color: white;
-        font:200%;
+        font:100%;
         text-align:center;
     }
 
 .logo a h1 { 
 
-    font: 200%;
+    font: 150%;
     text-align: center;
     line-height: 75px;
     color:white;
     clear:both;
+    vertical-align: middle;
 }
 
 .menu1 {
     font-size: 150%;
+    text-transform:uppercase;
     list-style-type: none;
     letter-spacing: 4px;
     font-family: Lato;
     text-align: center;
+    float:center;
+    clear:both;
+    line-height:75px;
+    vertical-align: middle;
+   
 }
 
 .menu1 a {
         
         color:white;
         text-decoration: none; 
+        vertical-align: middle;
         }
 
 
@@ -170,6 +178,7 @@ min-height:150px;
 background-color:#757575;
 background-size: cover;  
 margin:0;   
+
 }
 
 .social-media {
@@ -233,6 +242,7 @@ margin:0;
 .contact-center-image {
     
     min-height:600px;
+    min-width: 100vw;
     background-color:blue;
     background: url("https://images.pexels.com/photos/669584/pexels-photo-669584.jpeg?auto=compress&cs=tinysrgb&h=650&w=940") center no-repeat no-repeat;
     background-size: cover; 
@@ -305,18 +315,36 @@ margin:0;
 
 /* Contact-Us Styles */
 .center-form {
-    padding-top: 40%;
+    padding-top: 20%;
+    padding-left: 5%
     margin: 0 auto;
     min-width: 100%;
+    line-height: 75px;
     
 }
 
 .contact-center-text {
     text-align: center;
     float:center;
+    padding-top:5%;
+    
 }
 
 .contact-center-text h2, .contact-center-text h4 { 
     text-align:center;
     float: center;
 }
+
+/* Pricing Styles */
+
+.pricing-plan {
+    clear:both;
+    line-height: 0;
+    text-align: center;
+    background: url("https://images.pexels.com/photos/669576/pexels-photo-669576.jpeg?auto=compress&cs=tinysrgb&h=650&w=940")  no-repeat center center;
+    min-height:600px;
+    min-width: 100vw;
+    background-size: cover;
+    border: 5% solid white;
+}
+
