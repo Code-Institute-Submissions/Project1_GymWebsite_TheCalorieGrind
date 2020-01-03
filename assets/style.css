@@ -8,6 +8,8 @@ text-align: center;
 width:100vw;
 }
 
+
+
 h1  {
         font-family: Oswald;
         text-transform: uppercase;
@@ -328,6 +330,10 @@ th, td   {
   white-space: nowrap;
   float: center;
   
+}
+
+table {
+    margin: auto;
 }
 
 .tt-text-noclass {
