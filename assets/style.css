@@ -35,20 +35,27 @@ h1  {
 }
 
 .menu1 {
+    width:100%;
     font-size: 150%;
     text-transform:uppercase;
     letter-spacing: 4px;
     font-family: Lato;
-    text-align: center;
     clear:both;
-    line-height:75px;
-    vertical-align: middle;
     background-color:green;
-    margin:0;
-    display:inline-block;
-    box-sizing:border-box;
+    display: inline-block;
    
 }
+
+.menu1 li {
+list-style-type: none;
+display:inline-block;
+float:left;
+line-height: 75px;
+width:20%;
+text-align: left;
+padding-left: 20px;
+}
+
 
 .menu1 a {
         color:white;
@@ -211,11 +218,12 @@ margin:0;
 .social-media li a {
     font-size: 100%;
     margin: 1%;
-    text-align: center;
+    
     float: center;
     color: black;
     clear:both;
     list-style-type: none;
+    display: inline-block;
 }
 
 /* google maps iframe input on contact page */
@@ -229,7 +237,6 @@ margin:0;
 
 .photo {
     clear:both;
-   
 }
 
 /* main section of contact us page w/ three photo layout */
