@@ -13,6 +13,7 @@ h1  {
         line-height: 30px;
     }
 
+/* -----Styles For Heading including the Dropdown Menu and Calorie Grind Logo-----*/
 
 /* Style The Dropdown Button */
 .dropbtn {
@@ -25,13 +26,13 @@ h1  {
   float:left;
 }
 
-/* The container <div> - needed to position the dropdown content */
+/* Container To Position Dropdown Menu Contain */
 .dropdown {
   position: relative;
   display: inline-block;
 }
 
-/* Dropdown Content (Hidden by Default) */
+/* Hides Dropdown content*/
 .dropdown-content {
   display: none;
   position: absolute;
@@ -41,7 +42,7 @@ h1  {
   z-index: 1;
 }
 
-/* Links inside the dropdown */
+/* Styling Of Text For Links */
 .dropdown-content a {
   color: black;
   padding: 12px 16px;
@@ -62,7 +63,7 @@ h1  {
   background-color: #3e8e41;
 }
 
-
+/* Positioning and Style of Logo */
 nav a h1 {
     Padding-top: 15px;
     padding-right:50px;
@@ -70,11 +71,15 @@ nav a h1 {
     float:center;
 }
 
+/* Animation for Logo interaction */
+
 nav a h1:hover {
     animation-name: zoom;
     animation-duration:1.5s;
     animation-fill-mode:forwards;
 }
+
+/* Burn animation */
 
 body , header, .middle-section{
     animation-name: color-change;
@@ -82,6 +87,7 @@ body , header, .middle-section{
     animation-fill-mode:forwards;
 }
 
+/* Burn animation Keyframe */
 @keyframes color-change {
     from {
         background-color: black;
@@ -91,14 +97,17 @@ body , header, .middle-section{
     50% {
         background-color: orangered;
     }
-    75% { background-color: red;
-    }
     To {
         background-color:black;
     }
 }
 
+/* Burn animation that settles to silver */
+
 .gap {
+    height:4px;
+    background-color: silver;
+    width:100%;
     animation-name: color-change-2;
     animation-duration:4s;
     animation-fill-mode:forwards;
@@ -120,20 +129,9 @@ body , header, .middle-section{
     }
 }
 
-.menu a:hover {
-   border-bottom: 1px solid #777777;
-}
 
-.active {
-    border-bottom: 1px solid #777777;
-}
+/* --------- Index Page Styling ----------*/
 
-.theme {
-    width:100%;
-    height:100vh;
-    overflow-x: hidden;
-    background-color: black;
-}
 
 /* image used on index page main section */
 #hero-image {
@@ -155,6 +153,7 @@ body , header, .middle-section{
  position:relative;
 }
 
+/* Animation For Hero Image Expansion */
 @keyframes zoom {
     from {
         transform: scale(1);
@@ -167,7 +166,8 @@ body , header, .middle-section{
     }
 }
 
-/* text styling for founder quote */
+
+/* Styling For Testimony On Top Of Hero Image */
 #cover-text, #cover-text h2 {
     color: white;
     font-size: 10px;
@@ -193,12 +193,14 @@ body , header, .middle-section{
     box-shadow: 0px 8px 16px 0px rgba(220,220,220,0.6);
 }
 
+/*-------------Our Mission Section-----------*/
 
 /* club ethos */ 
 #club-ethos {
          height:50px;
          width:100%;
-         margin-bottom: 20px;
+         color:white;
+         padding-top:20px;
          text-align: center;
 }
 
@@ -215,13 +217,7 @@ body , header, .middle-section{
     text-align:center;
 }
 
-hr {
-    border-bottom: 1px solid #777777;
-    width:80%;
-    margin: 0px .5;
-    }
-
-
+/* Horizontal Line Used To Break Up Section */
 
 #hl {
     border: 1px solid silver;
@@ -233,20 +229,22 @@ hr {
     }
 
 
-/* bottom footer common to all pages */
+/* -------- Bottom Footer Common To All Pages ---------- */
 footer {
-min-height:100px;
-background-color:#7c7c7c;
-background-size: cover; 
-margin:0;   
-width:100%;
-bottom:0;
-position:relative;
+    clear:both;
+    min-height:150px;
+    background-color:#7c7c7c;
+    background-size: cover; 
+    margin:0;   
+    width:100%;
+    bottom:0;
+    position:initi;
 }
 
 .social-media {
     text-align:center;
     clear:both;
+    padding-top:10px;
 }
 
 .social-media li {
@@ -271,73 +269,13 @@ position:relative;
     color: black;
     clear:both;
     list-style-type: none;
-    display: inline-block;
-}
-
-/* google maps iframe input on contact page */
-#gmap iframe {
-    min-height 100px;
-    width:100%;
-    clear:both;
 }
 
 
 
-.photo {
-    clear:both;
-}
 
-/* main section of contact us page w/ three photo layout */
-.left-about-contact {
-    height:600px;
-    background-color:blue;
-    background: url("https://images.pexels.com/photos/1552104/pexels-photo-1552104.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500") center no-repeat no-repeat;
-    background-size: cover; 
-}
+/* ----------------- timetable (tt) styles -------------- */
 
-.right-about-contact {
-    height:600px;
-    background-color:blue;
-    background: url("https://images.pexels.com/photos/1886487/pexels-photo-1886487.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500") center no-repeat no-repeat;
-    background-size: cover;         
-}
-
-.contact-center-image {
-    
-    min-height:600px;
-    min-width: 100vw;
-    background-color:blue;
-    background: url("https://images.pexels.com/photos/669584/pexels-photo-669584.jpeg?auto=compress&cs=tinysrgb&h=650&w=940") center no-repeat no-repeat;
-    background-size: cover; 
-    
-}
-
-/* testing at bottom of contact page to debug formatting */
-.test {
-    height: 300px;
-    clear:both;
-}
-
-.test li {
-    list-style-type: none;
-    text-align:center;
-
-    display: inline-block;
-}
-
-.test li a {
-    color:black;
-}
-
-/* ----------------- timetable (tt) styles */
-
-.tt-hl { 
-    border: 1px solid silver;
-    width: 100vw;;
-    margin: auto;
-    background-color: silver;
-    clear:both;
-}
 
 .tt-oh {
     clear:both;
@@ -354,9 +292,7 @@ position:relative;
 }
 
 .tt-oh-s1 {
-    padding-top: 3%;
-    border-bottom-style: solid;
-    border-bottom-color: white;
+    padding-top: 2%;
 }
 
 .tt-tt {
@@ -375,6 +311,7 @@ position:relative;
     margin-right: auto;
 }
 
+/* Styling For Timetable In Weekly Classes Section */
 
 th, td   {
   text-align: center;
@@ -385,7 +322,6 @@ th, td   {
   color: white;
   white-space: nowrap;
   float: center;
-  
 }
 
 table {
@@ -398,13 +334,13 @@ table {
     float: center;
 } 
 
-.gap {
-    height:4px;
-    background-color: silver;
-    width:100%;
-}
 
-/* Contact-Us Styles */
+
+
+
+/* --------------Contact-Us Styles---------------- */
+
+
 .center-form {
     padding-top: 20%;
     padding-left: 5%;
@@ -417,7 +353,16 @@ table {
     text-align: center;
     float:center;
     padding-top:5%;
-    
+    margin-bottom:20px; 
+}
+
+.contact-center-image {
+    clear:both;  
+    text-align: center;
+    background: url("https://images.pexels.com/photos/669576/pexels-photo-669576.jpeg?auto=compress&cs=tinysrgb&h=650&w=940")  no-repeat center center;
+    min-height:375px;
+    width:100vw;
+    background-size: cover;
 }
 
 .contact-center-text h2, .contact-center-text h4 { 
@@ -425,7 +370,17 @@ table {
     float: center;
 }
 
-/* Pricing Styles */
+/* google maps iframe input on contact page */
+#gmap iframe {
+    min-height: 100px;
+    width: 100vw;
+    clear:both;
+}
+
+
+
+/* ------Pricing Styles-------- */
+
 
 .pricing-plan {
     clear:both;  
