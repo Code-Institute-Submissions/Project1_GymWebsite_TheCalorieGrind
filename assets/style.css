@@ -395,3 +395,17 @@ table {
     color:white;
     list-style-type: none;
 }
+
+/* Images of members using Pexels for copyright free pics */
+#pricing-members {
+    clear:both;
+    line-height: 0;
+    column-count:4;
+    column-gap: 0px;
+    background-color:whitesmoke;
+}
+
+#pricing-members img {
+    width:100%;
+    margin-left: 50%;
+}
