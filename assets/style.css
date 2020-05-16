@@ -1,90 +1,94 @@
-@import url('https://fonts.googleapis.com/css?family=Lato|Oswald&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
+@import url("https://fonts.googleapis.com/css?family=Lato|Oswald&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700");
 
 /* common title for all pages */
 
-h1  {
-        font-family: Oswald;
-        text-transform: uppercase;
-        letter-spacing: 4px;
-        color: white;
-        font:80%;
-        text-align:center;
-        line-height: 30px;
-    }
+h1 {
+    font-family: Oswald;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: white;
+    font: 80%;
+    text-align: center;
+    line-height: 30px;
+}
 
 /* -----Styles For Heading including the Dropdown Menu and Calorie Grind Logo-----*/
 
 /* Style The Dropdown Button */
 .dropbtn {
-  background-color: black;
-  color: white;
-  padding: 16px;
-  font-size: 30px;
-  border: none;
-  cursor: pointer;
-  float:left;
+    background-color: black;
+    color: white;
+    padding: 16px;
+    font-size: 30px;
+    border: none;
+    cursor: pointer;
+    float: left;
 }
 
 /* Container To Position Dropdown Menu Contain */
 .dropdown {
-  position: relative;
-  display: inline-block;
+    position: relative;
+    display: inline-block;
 }
 
 /* Hides Dropdown content*/
 .dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: rgb(184,184,184);
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
+    display: none;
+    position: absolute;
+    background-color: rgb(184, 184, 184);
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
 }
 
 /* Styling Of Text For Links */
 .dropdown-content a {
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
 }
 
 /* Change color of dropdown links on hover */
-.dropdown-content a:hover {background-color: #f1f1f1}
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
 
 /* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {
-  display: block;
+    display: block;
 }
 
 /* Change the background color of the dropdown button when the dropdown content is shown */
 .dropdown:hover .dropbtn {
-  background-color: #3e8e41;
+    background-color: #3e8e41;
 }
 
 /* Positioning and Style of Logo */
 nav a h1 {
-    Padding-top: 15px;
-    padding-right:50px;
-    color:whitesmoke;
-    float:center;
+    padding-top: 15px;
+    padding-right: 50px;
+    color: whitesmoke;
+    float: center;
 }
 
 /* Animation for Logo interaction */
 
 nav a h1:hover {
     animation-name: zoom;
-    animation-duration:1.5s;
-    animation-fill-mode:forwards;
+    animation-duration: 1.5s;
+    animation-fill-mode: forwards;
 }
 
 /* Burn animation */
 
-body , header, .middle-section{
+body,
+header,
+.middle-section {
     animation-name: color-change;
-    animation-duration:4s;
-    animation-fill-mode:forwards;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
 }
 
 /* Burn animation Keyframe */
@@ -92,65 +96,66 @@ body , header, .middle-section{
     from {
         background-color: black;
     }
-    25% { background-color: orange;
+    25% {
+        background-color: orange;
     }
     50% {
         background-color: orangered;
     }
-    To {
-        background-color:black;
+    to {
+        background-color: black;
     }
 }
 
 /* Burn animation that settles to silver */
 
 .gap {
-    height:4px;
+    height: 4px;
     background-color: silver;
-    width:100%;
+    width: 100%;
     animation-name: color-change-2;
-    animation-duration:4s;
-    animation-fill-mode:forwards;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
 }
 
 @keyframes color-change-2 {
     from {
         background-color: black;
     }
-    25% { background-color: orange;
+    25% {
+        background-color: orange;
     }
     50% {
         background-color: orangered;
     }
-    75% { background-color: red;
+    75% {
+        background-color: red;
     }
-    To {
-        background-color:silver;
+    to {
+        background-color: silver;
     }
 }
-
 
 /* --------- Index Page Styling ----------*/
 
-
 /* image used on index page main section */
 #hero-image {
-    height:600px;
-    width:100%;
-    background: url("https://images.pexels.com/photos/2261477/pexels-photo-2261477.jpeg?cs=srgb&dl=active-athlete-barbell-2261477.jpg&fm=jpg")  no-repeat center center;
-    object-fit:  scale-down;
+    height: 600px;
+    width: 100%;
+    background: url("https://images.pexels.com/photos/2261477/pexels-photo-2261477.jpeg?cs=srgb&dl=active-athlete-barbell-2261477.jpg&fm=jpg") no-repeat center center;
+    object-fit: scale-down;
     object-position: top;
     background-size: cover;
     animation-name: zoom;
-    animation-duration:5s;
-    animation-fill-mode:forwards;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
 }
 
 #hero-outer {
- height:600px;
- width: 100%;
- overflow:hidden;
- position:relative;
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
 }
 
 /* Animation For Hero Image Expansion */
@@ -159,21 +164,21 @@ body , header, .middle-section{
         transform: scale(1);
     }
     50% {
-        transform:scale(1.1);
+        transform: scale(1.1);
     }
     to {
         transform: scale(1);
     }
 }
 
-
 /* Styling For Testimony On Top Of Hero Image */
-#cover-text, #cover-text h2 {
+
+#cover-text,
+#cover-text h2 {
     color: white;
     font-size: 10px;
     text-transform: uppercase;
-    text-shadow: Oswald 0px 0px 1px,   Oswald 0px 0px 1px,   Oswald 0px 0px 1px,
-             Oswald 0px 0px 1px,   Oswald 0px 0px 1px,   Oswald 0px 0px 1px;
+    text-shadow: Oswald 0px 0px 1px, Oswald 0px 0px 1px, Oswald 0px 0px 1px, Oswald 0px 0px 1px, Oswald 0px 0px 1px, Oswald 0px 0px 1px;
 }
 
 #cover-text {
@@ -181,40 +186,42 @@ body , header, .middle-section{
     font-family: Oswald;
     text-transform: uppercase;
     letter-spacing: 5px;
-    width:300px;
-    height:200px;
+    width: 300px;
+    height: 200px;
     padding-left: 20px;
     padding-top: 0px;
-    bottom:100px;
-    right:120px;
-    color:white;
-    position:absolute;
-    background-color: rgba(96,96,96,0.6);
-    box-shadow: 0px 8px 16px 0px rgba(220,220,220,0.6);
+    bottom: 100px;
+    right: 120px;
+    color: white;
+    position: absolute;
+    background-color: rgba(96, 96, 96, 0.6);
+    box-shadow: 0px 8px 16px 0px rgba(220, 220, 220, 0.6);
 }
+
 
 /*-------------Our Mission Section-----------*/
 
-/* club ethos */ 
+/* club ethos */
+
 #club-ethos {
-         height:50px;
-         width:100%;
-         color:white;
-         padding-top:20px;
-         text-align: center;
+    height: 50px;
+    width: 100%;
+    color: white;
+    padding-top: 20px;
+    text-align: center;
 }
 
 .mission-goals {
-    width:100%;
-    min-height:100px;
-    clear:both;
+    width: 100%;
+    min-height: 100px;
+    clear: both;
 }
 
 /* used for Mission statement text */
-.center-about { 
-    color:white;
+.center-about {
+    color: white;
     float: center;
-    text-align:center;
+    text-align: center;
 }
 
 /* Horizontal Line Used To Break Up Section */
@@ -225,41 +232,40 @@ body , header, .middle-section{
     margin-top: 2%;
     margin-bottom: 2%;
     background-color: silver;
-    clear:both;
-    }
-
+    clear: both;
+}
 
 /* -------- Bottom Footer Common To All Pages ---------- */
 footer {
-    clear:both;
-    min-height:150px;
-    background-color:#7c7c7c;
-    background-size: cover; 
-    margin:0;   
-    width:100%;
-    bottom:0;
-    position:initi;
+    clear: both;
+    min-height: 150px;
+    background-color: #7c7c7c;
+    background-size: cover;
+    margin: 0;
+    width: 100%;
+    bottom: 0;
+    position: initi;
 }
 
 .social-media {
-    text-align:center;
-    clear:both;
-    padding-top:10px;
+    text-align: center;
+    clear: both;
+    padding-top: 10px;
 }
 
 .social-media li {
     list-style-type: none;
     text-align: center;
-    clear:both;
-    color:black;
+    clear: both;
+    color: black;
 }
 
 .social-media p {
     color: black;
-    clear:both;
+    clear: both;
     float: right;
     text-align: center;
-    margin:1%;
+    margin: 1%;
 }
 
 .social-media li a {
@@ -267,22 +273,21 @@ footer {
     margin: 1%;
     float: center;
     color: black;
-    clear:both;
+    clear: both;
     list-style-type: none;
 }
-
-
-
 
 /* ----------------- timetable (tt) styles -------------- */
 
 
+/*----- Opening Hours CSS -----*/
+
 .tt-oh {
-    clear:both;
+    clear: both;
     line-height: 0;
     text-align: center;
-    background: url("https://images.pexels.com/photos/669578/pexels-photo-669578.jpeg?auto=compress&cs=tinysrgb&h=650&w=940")  no-repeat center center;
-    min-height:600px;
+    background: url("https://images.pexels.com/photos/669578/pexels-photo-669578.jpeg?auto=compress&cs=tinysrgb&h=650&w=940") no-repeat center center;
+    min-height: 600px;
     background-size: cover;
     border: 5% solid white;
 }
@@ -295,8 +300,10 @@ footer {
     padding-top: 2%;
 }
 
+/*---- Timetable's Timetable For Gym Class ----*/ 
+
 .tt-tt {
-    Text-align: left;
+    text-align: left;
     float: left;
 }
 
@@ -305,7 +312,7 @@ footer {
     border-spacing: 0;
     width: 100%;
     margin: auto;
-    overflow-x:auto;
+    overflow-x: auto;
     display: inline-block;
     margin-left: auto;
     margin-right: auto;
@@ -313,15 +320,16 @@ footer {
 
 /* Styling For Timetable In Weekly Classes Section */
 
-th, td   {
-  text-align: center;
-  padding: 20px;
-  margin:0;
-  word-wrap: break-word;
-  background-color: #757575;
-  color: white;
-  white-space: nowrap;
-  float: center;
+th,
+td {
+    text-align: center;
+    padding: 20px;
+    margin: 0;
+    word-wrap: break-word;
+    background-color: #757575;
+    color: white;
+    white-space: nowrap;
+    float: center;
 }
 
 table {
@@ -330,16 +338,11 @@ table {
 
 .tt-text-noclass {
     padding-top: 20px;
-    color:white;
+    color: white;
     float: center;
-} 
-
-
-
-
+}
 
 /* --------------Contact-Us Styles---------------- */
-
 
 .center-form {
     padding-top: 20%;
@@ -351,22 +354,23 @@ table {
 
 .contact-center-text {
     text-align: center;
-    float:center;
-    padding-top:5%;
-    margin-bottom:20px; 
+    float: center;
+    padding-top: 5%;
+    margin-bottom: 20px;
 }
 
 .contact-center-image {
-    clear:both;  
+    clear: both;
     text-align: center;
-    background: url("https://images.pexels.com/photos/669576/pexels-photo-669576.jpeg?auto=compress&cs=tinysrgb&h=650&w=940")  no-repeat center center;
-    min-height:375px;
-    width:100vw;
+    background: url("https://images.pexels.com/photos/669576/pexels-photo-669576.jpeg?auto=compress&cs=tinysrgb&h=650&w=940") no-repeat center center;
+    min-height: 375px;
+    width: 100vw;
     background-size: cover;
 }
 
-.contact-center-text h2, .contact-center-text h4 { 
-    text-align:center;
+.contact-center-text h2,
+.contact-center-text h4 {
+    text-align: center;
     float: center;
 }
 
@@ -374,38 +378,38 @@ table {
 #gmap iframe {
     min-height: 100px;
     width: 100vw;
-    clear:both;
+    clear: both;
 }
-
-
 
 /* ------Pricing Styles-------- */
 
-
 .pricing-plan {
-    clear:both;  
+    clear: both;
     text-align: center;
-    background: url("https://images.pexels.com/photos/669576/pexels-photo-669576.jpeg?auto=compress&cs=tinysrgb&h=650&w=940")  no-repeat center center;
-    min-height:375px;
-    width:100%;
+    background: url("https://images.pexels.com/photos/669576/pexels-photo-669576.jpeg?auto=compress&cs=tinysrgb&h=650&w=940") no-repeat center center;
+    min-height: 375px;
+    width: 100%;
     background-size: cover;
 }
 
 .pricing-plan-style {
-    color:white;
+    color: white;
     list-style-type: none;
 }
 
-/* Images of members using Pexels for copyright free pics */
+
+/* Images of members */
+
+
 #pricing-members {
-    clear:both;
+    clear: both;
     line-height: 0;
-    column-count:4;
+    column-count: 4;
     column-gap: 0px;
-    background-color:whitesmoke;
+    background-color: whitesmoke;
 }
 
 #pricing-members img {
-    width:100%;
+    width: 100%;
     margin-left: 50%;
 }
