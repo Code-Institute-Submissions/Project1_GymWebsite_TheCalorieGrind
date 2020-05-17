@@ -48,7 +48,6 @@ Similar overlapping issue in the Timetable which was overcome by adding a scroll
 # Deployment
 The Deployment of the project is being completed through GitHub Pages. 
 
-
 # Credits 
 
 ## Content 

@@ -198,7 +198,6 @@ header,
     box-shadow: 0px 8px 16px 0px rgba(220, 220, 220, 0.6);
 }
 
-
 /*-------------Our Mission Section-----------*/
 
 /* club ethos */
@@ -279,7 +278,6 @@ footer {
 
 /* ----------------- timetable (tt) styles -------------- */
 
-
 /*----- Opening Hours CSS -----*/
 
 .tt-oh {
@@ -300,7 +298,7 @@ footer {
     padding-top: 2%;
 }
 
-/*---- Timetable's Timetable For Gym Class ----*/ 
+/*---- Timetable's Timetable For Gym Class ----*/
 
 .tt-tt {
     text-align: left;
@@ -397,9 +395,7 @@ table {
     list-style-type: none;
 }
 
-
 /* Images of members */
-
 
 #pricing-members {
     clear: both;
