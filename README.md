@@ -16,5 +16,56 @@ The index page greets the user with a burn animation upon loading which is then 
 
 # Features 
 
-1. Photo Gallery - Users can see other users through images provided on other users. 
+1. Photo Gallery - Users can see other customers through images provided. 
+2. Dropdown Menu - Allows you to navigate through the website in 3 clicks.
+3. Google Maps Iframe - Users can see the exact location of the gym on an interactive map.
+4. Burn Animation - Every page loads with a transition of colours to mimic fire. 
+5. Timetable Scroll - Overcomes scaling issue on table by allowing user to scroll across table independent of page. 
+6. Submission Form - Customers can submit a form to sign up for a free session.
+
+# Technologies Used
+
+1. Bootstrap - Used when setting up rows and columns for rescaling for different sized screens.
+2. Font Awesome - links all of the icons to the screen seen throughout project and footer section
+
+# Testing 
+
+## Browser Testing and Screen Sizing 
+
+Comparing the user experience between Internet Explorer and Google Chrome showed no difference between the two. All aspects and features of the website ran the exact same. In both browsers the dropdown menu worked the same and all keyframes ran as they should.
+
+The screen sizing was tested rigorously from the screen size of a laptop all the way down to a phone. All features stacked well as screen size dropped. 
+
+## Bugs
+
+Main issue that persisted the entire project was that of overscrolling on the X-axis. The bug was fixed by removing min-width:100% to width:100% when setting out the design of the websites. 
+Min-width:100% adds extra space to the right which was causing the overscroll issue. Inital fix was to have overscroll-x:0 in the body. 
+
+Inital header displayed all of the pages. Stacking and spacing issue occured where they would overlap as the screen size got smaller. Issue resolved by recreating the header to have a dropdown menu. 
+
+Similar overlapping issue in the Timetable which was overcome by adding a scroll feature to the timetable making it independent of the rescaling process. 
+
+# Deployment
+
+
+
+# Credits 
+
+## Content 
+
+Content for mission statements came from http://www.fit100hq.com/'s previous website. 
+
+## Media 
+
+All media came from https://www.pexels.com/ to ensure copyright free images. 
+
+## Acknowledgement
+
+Mentor Aaron who gave the idea for a dropdown menu in the header and to add a scroll feature to the timetable.
+
+Set up for the gym website w/ black and white theme came from http://www.fit100hq.com/, https://www.goldsgym.com/ and https://www.elegantthemes.com/blog/divi-resources/examples-of-fitness-websites-built-with-divi for various examples of how other gym websites look. 
+
+Submission form, Timetable and dropdown design came from research on StackOverFlow. 
+
+All other aspects of the website came from the lessons taught on the course e.g. photo gallery. 
 
