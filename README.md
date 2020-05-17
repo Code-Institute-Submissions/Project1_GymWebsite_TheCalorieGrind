@@ -46,7 +46,7 @@ Inital header displayed all of the pages. Stacking and spacing issue occured whe
 Similar overlapping issue in the Timetable which was overcome by adding a scroll feature to the timetable making it independent of the rescaling process. 
 
 # Deployment
-
+The Deployment of the project is being completed through GitHub Pages. 
 
 
 # Credits 
@@ -67,5 +67,5 @@ Set up for the gym website w/ black and white theme came from http://www.fit100h
 
 Submission form, Timetable and dropdown design came from research on StackOverFlow. 
 
-All other aspects of the website came from the lessons taught on the course e.g. photo gallery. 
+All other aspects of the website came from the lessons taught on the course and my own intuition e.g. photo gallery. 
 
